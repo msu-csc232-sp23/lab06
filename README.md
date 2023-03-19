@@ -70,7 +70,7 @@ In this task, you are taking part (d) to the next level. Rather than simply writ
  * @param str a string to assess for membership in our language
  * @return true if the given string is in our language, false otherwise.
  * @post str remains unchanged upon completion of this function.
-bool lab06::isIn(std::string str);
+bool lab06::isIn(const std::string& str);
 ```
 
 1. Locate `TODO: Task 3.1` in `csc232.cpp`.
