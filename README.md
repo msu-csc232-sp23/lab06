@@ -8,7 +8,7 @@ This assignment is due at 23:59:59 on Saturday, March 25, 2023.
 
 ## Background
 
-Consider a language of words, where each word is a string of dots (`.`) and dashes (`-`). The following language describes this language:
+Consider a language of words, where each word is a string of dots (`.`) and dashes (`-`). The following grammar describes this language:
 
 ```text
 <word> = <dot> | <dash><word> | <word><dot>
@@ -62,7 +62,7 @@ In this task, you are to answer part (c) of the exercise:
 
 ### Task 3
 
-In this task, you are taking part (d) to the next level. Rather than simply writing pseduocode, you will actually implement the function 
+In this task, you are taking part (d) to the next level. Rather than simply writing pseduocode, you will actually implement the function
 
 ```c++
 /**
